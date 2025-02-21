@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>AddEditCoffeeForm</class>
@@ -68,75 +67,4 @@
  </widget>
  <resources/>
  <connections/>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<ui version="4.0">
- <class>AddEditCoffeeForm</class>
- <widget class="QWidget" name="AddEditCoffeeForm">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>300</width>
-    <height>400</height>
-   </rect>
-  </property>
-  <property name="windowTitle">
-   <string>Добавить/Редактировать Кофе</string>
-  </property>
-  <layout class="QVBoxLayout" name="verticalLayout">
-   <item>
-    <widget class="QLineEdit" name="nameLineEdit">
-     <property name="placeholderText">
-      <string>Название</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLineEdit" name="roastLevelLineEdit">
-     <property name="placeholderText">
-      <string>Уровень обжарки</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLineEdit" name="groundBeanLineEdit">
-     <property name="placeholderText">
-      <string>Молотый/Зерно</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLineEdit" name="descriptionLineEdit">
-     <property name="placeholderText">
-      <string>Описание</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLineEdit" name="priceLineEdit">
-     <property name="placeholderText">
-      <string>Цена</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLineEdit" name="packageVolumeLineEdit">
-     <property name="placeholderText">
-      <string>Объем упаковки</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QPushButton" name="saveButton">
-     <property name="text">
-      <string>Сохранить</string>
-     </property>
-    </widget>
-   </item>
-  </layout>
- </widget>
- <resources/>
- <connections/>
->>>>>>> 7239d68f0482535e49d942641500f99c555d5f11
 </ui> 
